@@ -1,0 +1,267 @@
+{
+        "empCode" : "SAFE111",
+	"njId" : "111",
+	"prefix" : "5", 
+	"firstname" : "Yash", 
+	"middlename" : "Mahesh", 
+	"lastname" : "Rajput",
+	"gender" : "Male",
+	"birthdate" : "1993-08-26",
+	"email" : "rajputyash006@gmail.com",
+	"phoneno" : "9033757101",
+	"alternateno" : "9033757102",
+	"marriageStatus" : "Unmarried",
+        "anniversaryDate" : "0000-00-00",
+	"noofchild" : "0",
+        "qualification" : "BE-Electrical", 
+	"experience" : "4+", 
+	"grade" : "A",
+	"crade" : "NA",
+	"jobtype" : "Permanent",
+	"branch" : "IT-Surat",
+	"department" : "IT",
+	"designation" : "Java Developer",
+	"superiorname" : "darshan",
+	"ctcamount" : "6LPA",
+	"employeeStatus" : "Active",
+	"employeeImage" : "https://uxwing.com/wp-content/themes",
+	"bloodgroup" : "AB+",
+	"disability" : false,
+	"disabilityPer" : "NA",
+	"disability_desc" : "NA",
+	"effectiveDate" : "2023-04-04",
+	"spousename" : "NA",
+	"dateofjoin" : "2023-05-01",
+	
+	
+	"bankname" : "HDFC Bank",
+	"accountno" : "2054123657", 
+	"ifsccode" : "HDFC1005205", 
+	"chequeImage" : "https://www.paisabazaar.com/wp-contentp",
+	
+
+	"panno" : "BMTC1253N51",
+	"aadharno" : "5214 85241 4215",
+	"pfNo" : "10254235845",
+	"aadharImage" : "https://cdn.pixabay.com/photo",
+	"panImage" : "https://mybillbook.in/blog/",
+
+        "emergencyname" : "MaheshChandra",
+        "emergencyContactNo" : "8907514821",
+
+
+        "addressList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "addressType" : "Permanent", 
+                                 "address" : "15 Mahadev Nagar Kadodara Surat", 
+                                 "state" : "Gujarat", 
+                                 "city" : "Surat", 
+                                 "pincode" : "394327", 
+                                 "addressproof" : "https://pbs.twimg.com/media/", 
+                                 "setCurrent" : true, 
+                                 "country" : "India",
+                                 "status" : "AUTHORISED"
+
+                              }
+          
+        ],
+
+
+        "languageList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "languagename" : "English", 
+                                 "canRead" : true, 
+                                 "canWrite" : true, 
+                                 "canSpeak" : true,
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "languagename" : "Gujrati", 
+                                 "canRead" : true, 
+                                 "canWrite" : true, 
+                                 "canSpeak" : true,
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "languagename" : "Hindi", 
+                                 "canRead" : true, 
+                                 "canWrite" : true, 
+                                 "canSpeak" : true,
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ],
+
+
+        "qualificationList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "course" : "BE-Electrical", 
+                                 "passingYear" : "2016", 
+                                 "university" : "GTU", 
+                                 "percentage" : "7.32",
+                                 "qualificationImage" : "https://ngivbt.edu.in/wp-content/uploads",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "course" : "12th", 
+                                 "passingYear" : "2012", 
+                                 "university" : "GSEB", 
+                                 "percentage" : "60.0",
+                                 "qualificationImage" : "https://ngivbt.edu.in/wp",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "course" : "10", 
+                                 "passingYear" : "2010", 
+                                 "university" : "GSEB", 
+                                 "percentage" : "77.54",
+                                 "qualificationImage" : "https://ngivbt.edu.in/wp",
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ],
+          
+
+
+
+        "certificateList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "certificateName" : "BE-Electrical", 
+                                 "passingYear" : "2016", 
+                                 "instituteName" : "FETR-Bardoli", 
+                                 "percentage" : "7.32",
+                                 "certificateImage" : "https://ngivbt.edu.in/wp-content/uploads/2020",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "certificateName" : "12th", 
+                                 "passingYear" : "2012", 
+                                 "instituteName" : "BKHV-Parvat Patiya", 
+                                 "percentage" : "60.0",
+                                 "certificateImage" : "https://ngivbt.edu.in/wp-content",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "certificateName" : "10", 
+                                 "passingYear" : "2010", 
+                                 "instituteName" : "SPHC-Kadodara", 
+                                 "percentage" : "77.54",
+                                 "certificateImage" : "https://ngivbt.edu.in/wp-content",
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ],
+
+
+
+        "exprienceList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "companyName" : "Texfab Engineers", 
+                                 "designation" : "Electrical Design Engineer", 
+                                 "joinDate" : "2017-12-18", 
+                                 "leaveDate" : "2021-04-10",
+                                 "leaveReason" : "To learn Programming languages",
+                                 "ctcAmount" : "2.4 LPA",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "companyName" : "Ascolite Pvt Ltd", 
+                                 "designation" : "Electrical Maintance Engineer", 
+                                 "joinDate" : "2016-06-16", 
+                                 "leaveDate" : "2017-02-28",
+                                 "leaveReason" : "Family Heath Issue",
+                                 "ctcAmount" : "1.2 LPA",
+                                 "status" : "AUTHORISED"
+                              }
+
+          
+        ],
+
+
+
+        "relationList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "relativename" : "Pankaj", 
+                                 "empRelation" : "Brother", 
+                                 "birthdate" : "1995-10-26", 
+                                 "occupation" : "8512 8555 4585",
+                                 "skill" : "Sale",
+                                 "contactNo" : "7584526235",
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ],
+
+
+
+        "nomineeList" : [
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "nomineename" : "MaheshChandra", 
+                                 "relation" : "Father", 
+                                 "birthdate" : "1967-12-24", 
+                                 "aadharno" : "2412 5235 4585",
+                                 "accountno" : "500012548521",
+                                 "bankname" : "BOB",
+                                 "IFSCcode" : "BOB15425",
+                                 "share" : "50",
+                                 "contactno" : "8575235474",
+                                 "status" : "AUTHORISED"
+                              },
+
+                             {
+                                 "empCode" : "SAFE111",
+                                 "nomineename" : "DharmisthaDevi", 
+                                 "relation" : "Mother", 
+                                 "birthdate" : "1970-05-07", 
+                                 "aadharno" : "4252 5235 4585",
+                                 "accountno" : "800012748521",
+                                 "bankname" : "BOB",
+                                 "IFSCcode" : "BOB15425",
+                                 "share" : "50",
+                                 "contactno" : "8575235474",
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ],
+
+
+        "kraList" : [
+
+                              {
+                                 "empCode" : "SAFE111",
+                                 "kra" : "kra-111",
+                                 "kratype" : "kra-123",
+                                 "status" : "AUTHORISED"
+                              }
+          
+        ]
+
+}
