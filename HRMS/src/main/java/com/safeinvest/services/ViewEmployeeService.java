@@ -2,18 +2,8 @@ package com.safeinvest.services;
 
 import java.util.List;
 
-import com.safeinvest.exceptions.NoEmployeeAddressDataFound;
-import com.safeinvest.exceptions.NoEmployeeBankDataFound;
-import com.safeinvest.exceptions.NoEmployeeCertificateDataFound;
-import com.safeinvest.exceptions.NoEmployeeEmergencyDataFound;
-import com.safeinvest.exceptions.NoEmployeeExperienceDataFound;
-import com.safeinvest.exceptions.NoEmployeeKRADataFound;
-import com.safeinvest.exceptions.NoEmployeeKYCDataFound;
-import com.safeinvest.exceptions.NoEmployeeLanguageDataFound;
-import com.safeinvest.exceptions.NoEmployeeMasterDataFound;
-import com.safeinvest.exceptions.NoEmployeeNomineeDataFound;
-import com.safeinvest.exceptions.NoEmployeeQualificationDataFound;
-import com.safeinvest.exceptions.NoEmployeeRelationDataFound;
+
+import com.safeinvest.exceptions.NoEmployeeDataFound;
 import com.safeinvest.models.EmployeeAddress;
 import com.safeinvest.models.EmployeeBank;
 import com.safeinvest.models.EmployeeEmergency;
@@ -29,29 +19,29 @@ import com.safeinvest.models.EmployeeRelation;
 
 public interface ViewEmployeeService {
 	
-	public EmployeeMaster getEmployeeMaster(String employeeCode) throws NoEmployeeMasterDataFound;
+	public EmployeeMaster getEmployeeMaster(String employeeCode) throws NoEmployeeDataFound;
 
-	public EmployeeBank getEmployeeBankDetails(String employeeCode) throws NoEmployeeBankDataFound;
+	public EmployeeBank getEmployeeBankDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public EmployeeKYC getEmployeeKYCDetails(String employeeCode) throws NoEmployeeKYCDataFound;
+	public EmployeeKYC getEmployeeKYCDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public EmployeeEmergency getEmployeeEmergencyDetails(String employeeCode) throws NoEmployeeEmergencyDataFound;
+	public EmployeeEmergency getEmployeeEmergencyDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeAddress> getEmployeeAddressDetails(String employeeCode) throws NoEmployeeAddressDataFound;
+	public List<EmployeeAddress> getEmployeeAddressDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeLanguage> getEmployeeLanguageDetails(String employeeCode) throws NoEmployeeLanguageDataFound;
+	public List<EmployeeLanguage> getEmployeeLanguageDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeQualification> getEmployeeQualificationDetails(String employeeCode) throws NoEmployeeQualificationDataFound;
+	public List<EmployeeQualification> getEmployeeQualificationDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeExtraCertificate> getEmployeeCertificationDetails(String employeeCode) throws NoEmployeeCertificateDataFound;
+	public List<EmployeeExtraCertificate> getEmployeeCertificationDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeExprience> getEmployeeExperienceDetails(String employeeCode) throws NoEmployeeExperienceDataFound;
+	public List<EmployeeExprience> getEmployeeExperienceDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeRelation> getEmployeeRelationDetails(String employeeCode) throws NoEmployeeRelationDataFound;
+	public List<EmployeeRelation> getEmployeeRelationDetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeKRA> getEmployeeKRADetails(String employeeCode) throws NoEmployeeKRADataFound;
+	public List<EmployeeKRA> getEmployeeKRADetails(String employeeCode) throws NoEmployeeDataFound;
 	
-	public List<EmployeeNominee> getEmployeeNomineeDetails(String employeeCode) throws NoEmployeeNomineeDataFound;
+	public List<EmployeeNominee> getEmployeeNomineeDetails(String employeeCode) throws NoEmployeeDataFound;
 	
 	
 }

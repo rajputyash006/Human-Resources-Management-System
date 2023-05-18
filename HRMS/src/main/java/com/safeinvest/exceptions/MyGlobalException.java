@@ -13,7 +13,7 @@ import org.springframework.web.context.request.WebRequest;
 @ControllerAdvice
 public class MyGlobalException {
 	
-	
+	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<MyErrClass> otherException(MethodArgumentNotValidException mnav){
 		MyErrClass err=new MyErrClass();
 		err.setTime(LocalDateTime.now());
@@ -22,74 +22,8 @@ public class MyGlobalException {
 		return new ResponseEntity<MyErrClass>(err, HttpStatus.BAD_REQUEST);
 	}
 	
-	@ExceptionHandler(NoEmployeeAddressDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeAddressFoundHandller(NoEmployeeAddressDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeBankDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeBankAddressFoundHandller(NoEmployeeBankDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeCertificateDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeCertificateFoundHandller(NoEmployeeCertificateDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeEmergencyDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeEmergencyFoundHandller(NoEmployeeEmergencyDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeExperienceDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeExperienceFoundHandller(NoEmployeeExperienceDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeKRADataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeKRAFoundHandller(NoEmployeeKRADataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeKYCDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeKYCFoundHandller(NoEmployeeKYCDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeLanguageDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeLanguageFoundHandller(NoEmployeeLanguageDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeMasterDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeMasterFoundHandller(NoEmployeeMasterDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeNomineeDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeNomineeFoundHandller(NoEmployeeNomineeDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeQualificationDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeQualificationFoundHandller(NoEmployeeQualificationDataFound e,WebRequest web){
-		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
-		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
-	}
-	
-	@ExceptionHandler(NoEmployeeRelationDataFound.class)
-	public ResponseEntity<MyErrClass> noEmployeeRelationFoundHandller(NoEmployeeRelationDataFound e,WebRequest web){
+	@ExceptionHandler(NoEmployeeDataFound.class)
+	public ResponseEntity<MyErrClass> noEmployeeAddressFoundHandller(NoEmployeeDataFound e,WebRequest web){
 		MyErrClass err=new MyErrClass(LocalDateTime.now(),e.getMessage(),web.getDescription(false));
 		return new ResponseEntity<MyErrClass>(err, HttpStatus.NOT_FOUND);
 	}
